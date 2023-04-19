@@ -1,7 +1,45 @@
 body {
     margin: 0;
-    background-color: black;
+    background-color: #172409;
     text-decoration-color: azure;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+nav li.logo {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+  }
+
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    background-color: #111;
+  }
