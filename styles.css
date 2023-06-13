@@ -1,87 +1,77 @@
-body {
-    margin: 0;
-    background-color: #fafafa;
-    text-decoration-color: azure;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    color: #080000;
-    font-size: 60px;
-}
-
-h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
-    color: #0b0b0b;
-    font-size: 30px;
-    padding-left: 30px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-nav li.logo {
-    font-size: 1em;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style-type: none;
+html,
+body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  nav li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    float: left;
-  }
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(Lypay\ Background.svg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
 
-  nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+.navbar{
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
 
-  nav li a:hover {
-    background-color: #111;
-  }
+.logo{
+  width: 60px;
+  cursor: pointer;
+  margin-left: 5%;
+}
 
-  .logo {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-  
-  .logo-right {
-    margin-left: auto;
-    order: 2;
-  }
-  
-  img {
-    width: 60px;
-    height: 40px;
-    object-fit: contain;
-  }
+nav{
+  flex: 1;
+  padding-left: 30px;
+}
 
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1px;
-    text-align: right;
-    padding-right: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #0e0439;
+}
+
+.text h1{
+  font-size: 40px;
+  font-weight:bold;
+  font-style:normal;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.text p{
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.text{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.text .btn{
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000000;
+  box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
