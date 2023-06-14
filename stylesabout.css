@@ -12,7 +12,7 @@ body{
 p {
     margin-bottom: 1em;
     margin-left: 5em;
-    margin-right: 30em;
+    margin-right: 40em;
   }
 
 h1{
@@ -20,3 +20,12 @@ h1{
     margin-left: 2.5em;
     margin-right: 5em;
   }
+img{
+    /* style for lypay logo  */
+     width: 20px;
+     height: 23px;
+     
+     position: relative;
+     top: -71px; /* Adjust the value as needed */
+     left: 452px;
+    }
